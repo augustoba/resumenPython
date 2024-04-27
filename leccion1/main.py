@@ -48,3 +48,26 @@ else:
 boleano = True
 print(not boleano)
 # None es el equivalente a null en java
+#estructura de while
+condicion = True
+while condicion:
+    print("ejecutando while")
+    condicion = False
+else:
+    print("fin")
+
+#estructura de for se utiliza el auxiliar que va a tomar el valor y se indica de que lista itera.
+cadena = "hola"
+
+#for indice, letra in cadena:
+for indice, letra in enumerate(cadena):
+    print(f" indice {indice}    {letra}")
+else:
+    print("fin de iteracion")
+#listas para acceder desde el final se usan valores negativos -1 es el ultimo -2 el penultimo y asi
+nombres=["juan", "carla","ricardo"]
+
+print(nombres)
+print(nombres[0])
+#para acceder entre el rango 0 y 1 el 2 no lo abarca
+print(nombres[0:2])
