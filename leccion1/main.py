@@ -65,7 +65,7 @@ for indice, letra in enumerate(cadena):
 else:
     print("fin de iteracion")
 #listas para acceder desde el final se usan valores negativos -1 es el ultimo -2 el penultimo y asi
-nombres=["juan", "carla","ricardo"]
+nombres = ["juan", "carla", "ricardo"]
 
 print(nombres)
 print(nombres[0])
@@ -78,7 +78,7 @@ print(len(nombres))
 #para agregar elementos
 nombres.append("jose")
 #para agregar en un indice especifico los demas se mueven un indice
-nombres.insert(1,"pedro")
+nombres.insert(1, "pedro")
 #para remover por valor
 nombres.remove("pedro")
 #para remover el ultimo indice
@@ -86,17 +86,17 @@ nombres.pop()
 #para eliminar por indice
 del nombres[1]
 #diferencia entre las tuplas y listas las listas se pueden modificar las tuplas no estas comienzan con ()
-frutas = ("naranja","banana","manzana")
+frutas = ("naranja", "banana", "manzana")
 #set colection  no se modifican los elementos pero si se pueden agregar y eliminar no poseen un orden y no admite duplicados
-planetas= {"marte","jupiter","venus"}
+planetas = {"marte", "jupiter", "venus"}
 print(planetas)
 #para verificar si existe un elemento en el set
 print("marte" in planetas)
 #para agregar se usa add
 planetas.add("tierra")
 #para eliminar
-planetas.remove("tierra") #puede lanzar error .
-planetas.discard("tierra") #si no existe no lo elimina y no lanza error.
+planetas.remove("tierra")  #puede lanzar error .
+planetas.discard("tierra")  #si no existe no lo elimina y no lanza error.
 #diccionarios  key value si se puede modificar valores y no se puede repetidos
 
 diccionario = {
@@ -115,6 +115,45 @@ print(diccionario.get("ide"))
 for key in diccionario:
     print(key)
 
-# recorrer el diccionario key y value
-    for key,valor in diccionario.items():
+    # recorrer el diccionario key y value
+    for key, valor in diccionario.items():
         print(key, valor)
+
+#funcion se define con def y se escribe con _ o con camelCase tiene que definirse antes de ejecutar.
+saludo = "hola"
+nombre = "augusto"
+
+
+def miFuncion(saludo="hi", nombre="none"):
+    print(f"{saludo} , {nombre}")
+
+
+miFuncion(saludo, nombre)
+miFuncion(saludo, nombre)
+
+
+#funciones sin saber la cantidad de parametros *args o cualquier otro nombre pero en general es arg
+def listarNombres(*args):
+    for nombre in args:
+        print(nombre)
+    return list(nombres)
+listarNombres("pedro", "pablo", "juan")
+print(listarNombres("pedro", "pablo", "juan"))
+
+#funcion con argumento de diccionario llave valor se usa **kwargs o se le puede poner cualquier nombre
+
+def listarTerminos(**kwargs):
+    for key,value in kwargs.items():
+        print(f"{key}: {value}")
+listarTerminos(IDE="juan", PK="ASD")
+
+
+# funcion con  lista
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+
+nombres=["pedro","maria","jose"]
+desplegarNombres(nombres)
+

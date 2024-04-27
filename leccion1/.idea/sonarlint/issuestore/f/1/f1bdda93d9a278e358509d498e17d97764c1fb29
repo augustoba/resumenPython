@@ -1,3 +1,7 @@
 
-Ypython:S28368"5Add a "break" statement or remove this "else" clause.(³£œ‰øÿÿÿÿ8‚º¦êñ1
-Ypython:S2836A"5Add a "break" statement or remove this "else" clause.(³£œ‰øÿÿÿÿ8ƒº¦êñ1
+python:S28368"5Add a "break" statement or remove this "else" clause.(³£œ‰øÿÿÿÿ8 ÛÙˆò1J$5d5e684e-6b13-4cdb-8417-43d385e2ac95
+python:S2836A"5Add a "break" statement or remove this "else" clause.(³£œ‰øÿÿÿÿ8¡ÛÙˆò1J$561a8f9c-f5ce-4bda-a9c1-6bb2258e333f
+”python:S1542"ORename function "miFuncion" to match the regular expression ^[a-z_][a-z0-9_]*$.(¾ãÉñ8¡ÛÙˆò1J$91ef0edd-ad0f-48d6-9372-2158d7813a0e
+™python:S1542ˆ"SRename function "listarNombres" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ñµ˜8¡ÛÙˆò1J$b4e45110-7a71-4136-b5eb-d55994c4af14
+Ÿpython:S1542‘"TRename function "listarTerminos" to match the regular expression ^[a-z_][a-z0-9_]*$.(ò€Â ıÿÿÿÿ8¡ÛÙˆò1J$6402b6d0-dba6-4729-b5b8-fcaf5bf661b0
+œpython:S1542™"VRename function "desplegarNombres" to match the regular expression ^[a-z_][a-z0-9_]*$.(«£Éë8ş²âˆò1J$1dcf0514-ccc7-477e-ad4e-d619b8e74656
