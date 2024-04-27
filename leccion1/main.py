@@ -71,3 +71,50 @@ print(nombres)
 print(nombres[0])
 #para acceder entre el rango 0 y 1 el 2 no lo abarca
 print(nombres[0:2])
+#para acceder entre el rango 0 y 1 el 2 no lo abarca
+print(nombres[:2])
+#para saber el tamaño
+print(len(nombres))
+#para agregar elementos
+nombres.append("jose")
+#para agregar en un indice especifico los demas se mueven un indice
+nombres.insert(1,"pedro")
+#para remover por valor
+nombres.remove("pedro")
+#para remover el ultimo indice
+nombres.pop()
+#para eliminar por indice
+del nombres[1]
+#diferencia entre las tuplas y listas las listas se pueden modificar las tuplas no estas comienzan con ()
+frutas = ("naranja","banana","manzana")
+#set colection  no se modifican los elementos pero si se pueden agregar y eliminar no poseen un orden y no admite duplicados
+planetas= {"marte","jupiter","venus"}
+print(planetas)
+#para verificar si existe un elemento en el set
+print("marte" in planetas)
+#para agregar se usa add
+planetas.add("tierra")
+#para eliminar
+planetas.remove("tierra") #puede lanzar error .
+planetas.discard("tierra") #si no existe no lo elimina y no lanza error.
+#diccionarios  key value si se puede modificar valores y no se puede repetidos
+
+diccionario = {
+    "ide": "integrated development enviroment",
+    "oop": "object oriented programming",
+    "dbms": "database management system"
+}
+
+print(diccionario)
+#para acceder desde la llave
+print(diccionario["ide"])
+print(diccionario.get("ide"))
+
+# recorrer el diccionario solo las key
+
+for key in diccionario:
+    print(key)
+
+# recorrer el diccionario key y value
+    for key,valor in diccionario.items():
+        print(key, valor)
