@@ -157,3 +157,7 @@ def desplegarNombres(nombres):
 nombres=["pedro","maria","jose"]
 desplegarNombres(nombres)
 
+#clases class ver archivo Persona.py:
+
+
+
