@@ -4,7 +4,8 @@
 # se le agrega por parametro el self haciendo referencia a que apunta al objeto y con el
 # parametro se accede a los atributos si le pasamos None por parametro podemos crear la instancia null
 #se le agrega la anotacion @property para indicar que se acceder desde ahi al getter
-# para el setter @nombre.setter se agrega el atributo y .setter
+# para el setter @nombre.setter se agrega el atributo y .setter los atritutos deben tener
+# guion bajo al principio para diferenciarlos del getter y setter
 class Persona:
 
     def __init__(self, nombre=None, apellido=None, edad=None):

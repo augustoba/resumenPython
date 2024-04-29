@@ -1,5 +1,8 @@
+from Pesona import Persona
 # variables python no es necesario definir el tipo de dato y puede mutar el tipo de dato
 # en la ejecucion del codigo
+
+
 miVariable = "asddsa"
 print(miVariable)
 # para saber el tipo de dato
@@ -158,6 +161,7 @@ nombres=["pedro","maria","jose"]
 desplegarNombres(nombres)
 
 #clases class ver archivo Persona.py:
+persona =Persona()
 
-
+persona.toString()
 
